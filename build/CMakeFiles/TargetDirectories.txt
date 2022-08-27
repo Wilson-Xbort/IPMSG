@@ -1,0 +1,8 @@
+/home/vxe/ipmsg/build/CMakeFiles/rebuild_cache.dir
+/home/vxe/ipmsg/build/CMakeFiles/edit_cache.dir
+/home/vxe/ipmsg/build/CMakeFiles/ft_test.dir
+/home/vxe/ipmsg/build/CMakeFiles/test_config.dir
+/home/vxe/ipmsg/build/CMakeFiles/ipmsg.dir
+/home/vxe/ipmsg/build/CMakeFiles/test_fiber.dir
+/home/vxe/ipmsg/build/CMakeFiles/test_thread.dir
+/home/vxe/ipmsg/build/CMakeFiles/test_util.dir

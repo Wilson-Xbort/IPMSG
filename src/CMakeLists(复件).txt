@@ -1,0 +1,40 @@
+
+cmake_minimum_required(VERSION 3.0)
+
+PROJECT(ipmsg)
+
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
+include_directories(.)
+include_directories(/usr/local/include/yaml-cpp)
+#link_libraries("/home/vxe/ipmsg/lib/libyaml-cpp.so")
+set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -fPIC -ggdb -std=c++11 -Wall")
+link_directories(/usr/local/lib)
+add_executable(${PROJECT_NAME} 
+           	main.cpp
+    		log.cpp
+    		util.cpp
+    		config.cpp
+)
+#include (../cmake/utils.cmake)
+#add_library(test_module SHARED ${LIB_SRC})
+
+
+target_link_libraries(${PROJECT_NAME}  libyaml-cpp.so)
+#force_redefine_file_macro_for_sources(test_module)
+#add_executable(ipmsg ${LIB_SRC} )
+
+# 添加编译选项
+#判断编译器类型,如果是gcc编译器,则在编译选项中加入c++11支持
+if(CMAKE_COMPILER_IS_GNUCXX)
+    set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
+    set(CMAKE_CXX_FLAGS "-Wall ${CMAKE_CXX_FLAGS}")	
+    #message(STATUS "optional:-std=c++11")   
+endif(CMAKE_COMPILER_IS_GNUCXX)
+
+
+## 编译yaml 
+#
+
+#find_library(yaml-cpp)
+# 添加头文件路径, 相当于g++的-I

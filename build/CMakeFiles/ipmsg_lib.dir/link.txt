@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libipmsg_lib.a  CMakeFiles/ipmsg_lib.dir/src/log.cpp.o CMakeFiles/ipmsg_lib.dir/src/util.cpp.o CMakeFiles/ipmsg_lib.dir/src/config.cpp.o CMakeFiles/ipmsg_lib.dir/src/thread.cpp.o
+/usr/bin/ranlib lib/libipmsg_lib.a

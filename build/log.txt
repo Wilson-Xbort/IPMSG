@@ -1,0 +1,207 @@
+2021-03-10 10:35:23	4336		0	[INFO]	[system]	test/test_config_complate.cpp:271	hello system
+
+2021-03-10 10:35:23 - hello system
+
+2021-03-10 10:43:17	4449		0	[INFO]	[system]	test/test_config_complate.cpp:271	hello system
+
+2021-03-10 10:43:17 - hello system
+
+2021-03-10 10:58:17	4632		0	[INFO]	[system]	test/test_config_complate.cpp:271	hello system
+
+2021-03-10 10:58:17 - hello system
+
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.map description = class map person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEE value =
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.person description = class person typename =6Person value =name: ""
+age: 0
+sex: false
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.vec_map description = class map_vector person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEE value =
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =logs description = logs config typename =St3setIN5ipmsg9LogDefineESt4lessIS1_ESaIS1_EE value =- name: root
+  level: INFO
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_list description = system int list typename =NSt7__cxx114listIiSaIiEEE value =- 90
+- 30
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_set description = system int set typename =St3setIiSt4lessIiESaIiEE value =- 5
+- 6
+- 7
+- 8
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_uset description = system int unordered_set typename =St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value =- 9
+- 2
+- 7
+- 1
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_vec description = system int vec typename =St6vectorIiSaIiEE value =- 1
+- 2
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.port description = system port typename =i value =8080
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_map description = system str-int map typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEE value =k: 2
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_umap description = system str-int umap typename =St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEE value =k: 3
+2021-03-10 10:58:17	4632		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.value description = system value typename =f value =10.1999998
+2021-05-11 08:20:06	ERROR	test macro error
+2021-05-11 08:20:06	ERROR	test macro fmt error aa
+2021-05-11 10:54:38	3533		0	[INFO]	[system]	test/test_config_complate.cpp:271	hello system
+
+2021-05-11 10:54:38 - hello system
+
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.map description = class map person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEE value =
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.person description = class person typename =6Person value =name: ""
+age: 0
+sex: false
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.vec_map description = class map_vector person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEE value =
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =logs description = logs config typename =St3setIN5ipmsg9LogDefineESt4lessIS1_ESaIS1_EE value =- name: root
+  level: INFO
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_list description = system int list typename =NSt7__cxx114listIiSaIiEEE value =- 90
+- 30
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_set description = system int set typename =St3setIiSt4lessIiESaIiEE value =- 5
+- 6
+- 7
+- 8
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_uset description = system int unordered_set typename =St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value =- 9
+- 2
+- 7
+- 1
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_vec description = system int vec typename =St6vectorIiSaIiEE value =- 1
+- 2
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.port description = system port typename =i value =8080
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_map description = system str-int map typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEE value =k: 2
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_umap description = system str-int umap typename =St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEE value =k: 3
+2021-05-11 10:54:38	3533		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.value description = system value typename =f value =10.1999998
+2021-05-13 13:49:15	ERROR	test macro error
+2021-05-13 13:49:15	ERROR	test macro fmt error aa
+2021-05-13 14:46:35	4468		0	[INFO]	[system]	test/test_config_complate.cpp:271	hello system
+
+2021-05-13 14:46:35 - hello system
+
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.map description = class map person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEE value =
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.person description = class person typename =6Person value =name: ""
+age: 0
+sex: false
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.vec_map description = class map_vector person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEE value =
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =logs description = logs config typename =St3setIN5ipmsg9LogDefineESt4lessIS1_ESaIS1_EE value =- name: root
+  level: INFO
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_list description = system int list typename =NSt7__cxx114listIiSaIiEEE value =- 90
+- 30
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_set description = system int set typename =St3setIiSt4lessIiESaIiEE value =- 5
+- 6
+- 7
+- 8
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_uset description = system int unordered_set typename =St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value =- 9
+- 2
+- 7
+- 1
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_vec description = system int vec typename =St6vectorIiSaIiEE value =- 1
+- 2
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.port description = system port typename =i value =8080
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_map description = system str-int map typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEE value =k: 2
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_umap description = system str-int umap typename =St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEE value =k: 3
+2021-05-13 14:46:35	4468		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.value description = system value typename =f value =10.1999998
+2021-05-13 14:47:37	4538		0	[INFO]	[system]	test/test_config_complate.cpp:271	hello system
+
+2021-05-13 14:47:37 - hello system
+
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.map description = class map person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEE value =
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.person description = class person typename =6Person value =name: ""
+age: 0
+sex: false
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =class.vec_map description = class map_vector person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEE value =
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =logs description = logs config typename =St3setIN5ipmsg9LogDefineESt4lessIS1_ESaIS1_EE value =- name: root
+  level: INFO
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_list description = system int list typename =NSt7__cxx114listIiSaIiEEE value =- 90
+- 30
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_set description = system int set typename =St3setIiSt4lessIiESaIiEE value =- 5
+- 6
+- 7
+- 8
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_uset description = system int unordered_set typename =St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value =- 9
+- 2
+- 7
+- 1
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.int_vec description = system int vec typename =St6vectorIiSaIiEE value =- 1
+- 2
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.port description = system port typename =i value =8080
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_map description = system str-int map typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEE value =k: 2
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.str_int_umap description = system str-int umap typename =St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEE value =k: 3
+2021-05-13 14:47:37	4538		0	[INFO]	[root]	test/test_config_complate.cpp:277	name =system.value description = system value typename =f value =10.1999998
+2021-05-13 14:53:29	4630		0	[INFO]	[system]	test/test_config_complate.cpp:270	hello system
+
+2021-05-13 14:53:29 - hello system
+
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =class.map description = class map person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEE value =
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =class.person description = class person typename =6Person value =name: ""
+age: 0
+sex: false
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =class.vec_map description = class map_vector person typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEE value =
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =logs description = logs config typename =St3setIN5ipmsg9LogDefineESt4lessIS1_ESaIS1_EE value =- name: root
+  level: INFO
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  formatter: ""
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.int_list description = system int list typename =NSt7__cxx114listIiSaIiEEE value =- 90
+- 30
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.int_set description = system int set typename =St3setIiSt4lessIiESaIiEE value =- 5
+- 6
+- 7
+- 8
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.int_uset description = system int unordered_set typename =St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value =- 9
+- 2
+- 7
+- 1
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.int_vec description = system int vec typename =St6vectorIiSaIiEE value =- 1
+- 2
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.port description = system port typename =i value =8080
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.str_int_map description = system str-int map typename =St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEE value =k: 2
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.str_int_umap description = system str-int umap typename =St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEE value =k: 3
+2021-05-13 14:53:29	4630		0	[INFO]	[root]	test/test_config_complate.cpp:276	name =system.value description = system value typename =f value =10.1999998

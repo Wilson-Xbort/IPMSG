@@ -1,0 +1,23 @@
+#sylar 
+## 开发环境
+   System : Ubuntu 18.04.3 LTS
+   Kernel : Linux 5.4.0-60-generic	
+## 项目路径
+   src -- 存放.h 和 .cpp文件
+   test -- 存放测试代码
+   doc  -- 开发文档
+   build -- 输出二进制,中间文件路径
+
+## 日志系统
+1）
+   Log4J
+   Logger(定义日志类别）
+   
+
+## 配置系统
+   Config->YAML
+   yamp-cpp : github 搜 yaml-cpp
+	mkdir build && cd build && cmake .. && make install
+	/usr/local/include/yaml-cpp/..
+
+
